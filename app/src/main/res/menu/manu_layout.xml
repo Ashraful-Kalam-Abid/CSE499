@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="Sign Out"
+        android:id="@+id/signOutMenuId"
+        />
+    <item
+        android:title="Upload Book"
+        android:id="@+id/uploadBook"
+        />
+    <item
+        android:title="View Book"
+        android:id="@+id/downloadBook"
+        />
+    <item
+        android:title="Chat Room"
+        android:id="@+id/chatRoom"
+        />
+    <item
+        android:title="settings"
+        android:id="@+id/settings"
+        />
+
+
+
+
+</menu>

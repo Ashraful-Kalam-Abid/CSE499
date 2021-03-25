@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:weightSum="2">
+
+
+        <Button
+            android:id="@+id/upload"
+            android:layout_width="133dp"
+            android:layout_height="109dp"
+            android:background="@drawable/upl"
+            android:layout_marginRight="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="80dp"
+
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="17dp" />
+
+        <Button
+            android:id="@+id/capture"
+            android:layout_width="133dp"
+            android:layout_height="109dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/camr"
+            android:text=""
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="17dp" />
+    </LinearLayout>
+
+
+
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="160dp"
+        android:textColor="@color/white"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="100dp"
+        android:textSize="16sp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Search Youtube"
+        android:textAllCaps="false"
+        android:background="@color/gray"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        android:id="@+id/button2"
+        android:onClick="browser1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button2"
+        android:text="Search Google"
+        android:textAllCaps="false"
+        android:background="@color/gray"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        android:id="@+id/button3"
+        android:onClick="browser2"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>

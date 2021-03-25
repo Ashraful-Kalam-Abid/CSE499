@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Study Assistant</string>
+    <string-array name="UserType">
+        <item>Teacher</item>
+        <item>Student</item>
+    </string-array>
+    <string name="title_activity_chatroom">Chatroom</string>
+    <string name="tab_text_1">Chats</string>
+    <string name="tab_text_2">Groups</string>
+    <string name="tab_text_3">Members</string>
+
+</resources>

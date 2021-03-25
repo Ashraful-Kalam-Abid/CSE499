@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UploadBook">
+
+    <EditText
+        android:id="@+id/textPdfName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Book Name"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/_UploadBook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textPdfName"
+        android:layout_margin="10dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/colorAccent"
+        android:text="Upload"
+
+        android:textAllCaps="false"
+        android:textColor="@android:color/white"
+        android:textSize="17dp" />
+    <ProgressBar
+
+        android:layout_marginTop="200dp"
+        android:id="@+id/progressbarId2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>
